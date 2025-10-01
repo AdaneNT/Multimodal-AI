@@ -39,6 +39,10 @@ Then open:
 
 ```http://localhost:8000/docs```
 
+An example Swagger interface after running with http://localhost:8000/docs
+
+![Swagger UI Example](static/swagger-ui-example.png)
+
 ## License 
 
 - Original R2-Tuning (Ye Liu, BSD-3-Clause).  
