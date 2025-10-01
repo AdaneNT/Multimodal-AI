@@ -41,7 +41,7 @@ Then open:
 
 An example Swagger interface after running with http://localhost:8000/docs
 
-![Swagger UI Example](static/swagger-ui-example.png)
+![Swagger UI Example](static/swagger_UI.png)
 
 ## License 
 
