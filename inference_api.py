@@ -38,7 +38,7 @@ app = FastAPI(
     version="1.0.0",
     description="Upload a video and a text query to get relevant timestamps "
                 "(start, end, score). Also auto-saves ONE clip for the best segment.",
-    swagger_ui_parameters={"defaultModelsExpandDepth": -1},  # hides schemas section in Swagger
+    swagger_ui_parameters={"defaultModelsExpandDepth": -1},  
 )
 app.add_middleware(
     CORSMiddleware,
@@ -170,7 +170,7 @@ class PredictResponse(BaseModel):
 # ----------------------------- Endpoints -------------------------------- #
 @app.on_event("startup")
 def _startup():
-    # Lazy-load on first request; uncomment to load immediately on startup:
+    # Lazy-load on first request; 
     # _load_model()
     pass
 
@@ -215,7 +215,7 @@ async def predict(
     # Keep top-k
     results = results[:topk]
 
-    # Auto-save ONE clip for the highest score segment
+    # Save ONE clip for the highest score segment
     saved_clip_path: Optional[str] = None
     if results:
         best = max(results, key=lambda t: t[2])  # (start, end, score)
