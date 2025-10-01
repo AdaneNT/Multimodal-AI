@@ -39,9 +39,11 @@ Then open:
 
 ```http://localhost:8000/docs```
 
-An example Swagger interface after running with http://localhost:8000/docs
+You should see the Swagger interface:
 
-![Swagger UI Example](static/swagger_UI2.png)
+<p align="center">
+  <img src="static/swagger_UI2.png" alt="Swagger UI Example" width="600"/>
+</p>
 
 ## License 
 
