@@ -2,7 +2,7 @@
 
 This repository provides a **FastAPI + Swagger UI interface** for running inference with [R2-Tuning](https://github.com/yeliudev/R2-Tuning). It provides:
 - FastAPI wrapper that turns the command-line inference script into an HTTP service with Swagger UI.
-- Dockerized environment for CPU-only execution (portable across Intel and Apple Silicon).
+- Dockerized environment for CPU-only execution (Intel and Apple Silicon).
 - Ready-to-use endpoints for uploading videos + text queries and retrieving clips.
 
 ## Quickstart
