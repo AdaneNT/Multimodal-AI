@@ -39,7 +39,7 @@ Then open:
 
 ```http://localhost:8000/docs```
 
-You should see the Swagger interface:
+Test with an input video and  short query:
 
 <p align="center">
   <img src="static/swagger_UI2.png" alt="Swagger UI Example" width="600"/>
