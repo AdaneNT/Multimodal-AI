@@ -39,7 +39,7 @@ Then open:
 
 ```http://localhost:8000/docs```
 
-Test with an input video and  short query:
+Test with an input video and a short query on your local PC:
 
 <p align="center">
   <img src="static/swagger_UI2.png" alt="Swagger UI Example" width="600"/>
